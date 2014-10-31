@@ -1,4 +1,4 @@
 FriendLister
 ============
 
-Application Java
+Application Java Android
