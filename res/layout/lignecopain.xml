@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:background="@color/orangefonce"
+     >
+    <ImageView
+	   	    android:id="@+id/avatarCopain"
+	   	    android:layout_width="45sp"
+	   	    android:layout_height="45sp"
+	   	    android:src="@drawable/avatar"
+	   	    android:paddingTop="2sp"
+	   	    android:paddingLeft="2sp"
+	   	    android:paddingRight="2sp"
+	   	    android:paddingBottom="2sp"
+	   	    android:layout_gravity="center_vertical"
+	   	    android:contentDescription="@string/str_descAvatar"
+	   	    />
+   	    
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        
+        >
+        <TextView
+	        android:id="@+id/txt_PrenomCopain"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/orangeclair"
+	        android:paddingLeft="5sp"
+	        android:textSize="40sp" />
+	        
+
+	    <TextView
+	        android:id="@+id/txt_nomCopain"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/orangeclair"
+	        android:paddingLeft="5sp"
+	        android:textSize="40sp"  />
+        
+
+    </LinearLayout>
+</LinearLayout>

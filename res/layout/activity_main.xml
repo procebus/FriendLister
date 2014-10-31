@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/noir"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/lay_saisie" >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_infosSaisie"
+            android:textSize="20sp"
+            android:textColor="@color/orangeclair"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/inputTxt_Nom"
+            android:layout_width="274dp"
+            android:layout_height="48dp"
+            android:background="@color/orangetresfonce"
+            android:textColor="@color/blanc"
+            android:hint="@string/str_hintSaisieNom "  />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+         <EditText
+             android:id="@+id/inputTxt_Prenom"
+             android:layout_width="275dp"
+             android:layout_height="48dp"
+             android:background="@color/orangetresfonce"
+             android:textColor="@color/blanc"
+             android:hint="@string/str_hintSaisiePrenom " />
+         
+          <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/lay_boutons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lay_saisie"
+        android:background="@color/orangefonce"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        
+        <Button
+            android:id="@+id/btn_ajouter"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:background="@color/noir"
+            android:text="@string/str_btAjouter"
+            android:textColor="@color/blanc" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_afficher"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:background="@color/noir"
+            android:text="@string/str_btAfficher"
+            android:textColor="@color/blanc" />
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        
+        <Button
+            android:id="@+id/btn_sqlite"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:background="@color/noir"
+            android:text="@string/str_btsqlite"
+            android:textColor="@color/blanc" />
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Annuaire des copains</string>
+    <string name="title_activity_listcopains">Mes copains</string>
+    <string name="str_infosSaisie">Renseignements</string>
+    <string name="str_hintSaisieNom ">tapez votre nom</string>
+    <string name="str_hintSaisiePrenom ">tapez votre prénom</string>
+    <string name="str_btAjouter">Ajouter</string>
+    <string name="str_btAfficher">Afficher</string>
+    <string name="str_btsqlite">Sqlite</string>
+    <string name="str_descAvatar">Avatar du copain</string>
+    <string name="title_activity_sqlite">SQLiteActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
